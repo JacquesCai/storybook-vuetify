@@ -1,5 +1,5 @@
 <template>
-  <VSelect v-bind="props" :items="['Euro', 'Dollar']"></VSelect>
+  <VSelect v-bind="props" :items="['Euro', 'Dollar', 'Pound', 'Yen']" />
 </template>
 
 <script setup>
