@@ -22,3 +22,143 @@ export const Default = {
     label: "Alert",
   },
 }
+
+export const Closable = {
+  args: {
+    label: "Alert",
+    closable: true,
+  },
+}
+
+export const Outlined = {
+  args: {
+    label: "Alert",
+    variant: "outlined",
+  },
+}
+
+export const Text = {
+  args: {
+    label: "Alert",
+    variant: "text",
+  },
+}
+
+export const Elevated = {
+  args: {
+    label: "Alert",
+    variant: "elevated",
+  },
+}
+
+export const Pill = {
+  args: {
+    label: "Alert",
+    rounded: "pill",
+  },
+}
+
+export const Circle = {
+  args: {
+    label: "Alert",
+    rounded: "circle",
+  },
+}
+
+export const Shaped = {
+  args: {
+    label: "Alert",
+    rounded: "shaped",
+  },
+}
+
+export const Xs = {
+  args: {
+    label: "Alert",
+    rounded: "xs",
+  },
+}
+
+export const Top = {
+  args: {
+    label: "Alert",
+    border: "top",
+  },
+}
+
+export const End = {
+  args: {
+    label: "Alert",
+    border: "end",
+  },
+}
+
+export const Bottom = {
+  args: {
+    label: "Alert",
+    border: "bottom",
+  },
+}
+
+export const Start = {
+  args: {
+    label: "Alert",
+    border: "start",
+  },
+}
+
+export const Success = {
+  args: {
+    label: "Alert",
+    type: "success",
+  },
+}
+
+export const Info = {
+  args: {
+    label: "Alert",
+    type: "info",
+  },
+}
+
+export const Warning = {
+  args: {
+    label: "Alert",
+    type: "warning",
+  },
+}
+
+export const Error = {
+  args: {
+    label: "Alert",
+    type: "error",
+  },
+}
+
+export const Comfortable = {
+  args: {
+    label: "Alert",
+    density: "comfortable",
+  },
+}
+
+export const Compact = {
+  args: {
+    label: "Alert",
+    density: "compact",
+  },
+}
+
+export const Prominent = {
+  args: {
+    label: "Alert",
+    prominent: true,
+  },
+}
+
+export const Width = {
+  args: {
+    label: "Alert",
+    width: 300,
+  },
+}
