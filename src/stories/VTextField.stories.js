@@ -1,4 +1,4 @@
-import VTextField from './VTextField.vue';
+import { VTextField } from 'vuetify/components/VTextField';
 
 export default {
   title: 'VTextField',

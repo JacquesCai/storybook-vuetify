@@ -1,4 +1,4 @@
-import VAlert from "./VAlert.vue";
+import { VAlert } from "vuetify/components/VAlert"
 
 export default {
   title: "VAlert",

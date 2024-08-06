@@ -1,11 +1,12 @@
 
-import VChip from "./VChip.vue"
+import { VChip } from 'vuetify/components/VChip'
 
 export default {
   title: "VChip",
   component: VChip,
   tags: ["autodocs"],
   argTypes: {
+    text: { control: { type: "text" } },
     'append-icon': { control: { type: "text" } },
     border: { control: { type: "select" }, options: ['xs', 'sm', 'md', 'lg', 'xl'] },
     closable: { control: { type: "boolean" } },
@@ -15,146 +16,146 @@ export default {
 
 export const Default = {
   args: {
-    label: "Chip",
+    text: "Chip",
   },
 }
 
 export const Closable = {
   args: {
-    label: "Chip",
+    text: "Chip",
     closable: true,
   },
 }
 
 export const Outlined = {
   args: {
-    label: "Chip",
+    text: "Chip",
     variant: "outlined",
   },
 }
 
 export const Text = {
   args: {
-    label: "Chip",
+    text: "Chip",
     variant: "text",
   },
 }
 
 export const Elevated = {
   args: {
-    label: "Chip",
+    text: "Chip",
     variant: "elevated",
   },
 }
 
 export const Pill = {
   args: {
-    label: "Chip",
+    text: "Chip",
     rounded: "pill",
   },
 }
 
 export const Circle = {
   args: {
-    label: "Chip",
+    text: "Chip",
     rounded: "circle",
   },
 }
 
 export const Shaped = {
   args: {
-    label: "Chip",
+    text: "Chip",
     rounded: "shaped",
   },
 }
 
 export const Xs = {
   args: {
-    label: "Chip",
+    text: "Chip",
     border: "xs",
   },
 }
 
 export const Sm = {
   args: {
-    label: "Chip",
+    text: "Chip",
     border: "sm",
   },
 }
 
 export const Md = {
   args: {
-    label: "Chip",
+    text: "Chip",
     border: "md",
   },
 }
 
 export const Lg = {
   args: {
-    label: "Chip",
+    text: "Chip",
     border: "lg",
   },
 }
 
 export const Xl = {
   args: {
-    label: "Chip",
+    text: "Chip",
     border: "xl",
   },
 }
 
 export const Primary = {
   args: {
-    label: "Chip",
+    text: "Chip",
     color: "primary",
   },
 }
 
 export const Secondary = {
   args: {
-    label: "Chip",
+    text: "Chip",
     color: "secondary",
   },
 }
 
 export const Success = {
   args: {
-    label: "Chip",
+    text: "Chip",
     color: "success",
   },
 }
 
 export const Info = {
   args: {
-    label: "Chip",
+    text: "Chip",
     color: "info",
   },
 }
 
 export const Warning = {
   args: {
-    label: "Chip",
+    text: "Chip",
     color: "warning",
   },
 }
 
 export const Error = {
   args: {
-    label: "Chip",
+    text: "Chip",
     color: "error",
   },
 }
 
 export const AppendIcon = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
   },
 }
 
 export const AppendIconClosable = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
     closable: true,
   },
@@ -162,7 +163,7 @@ export const AppendIconClosable = {
 
 export const AppendIconOutlined = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
     variant: "outlined",
   },
@@ -170,7 +171,7 @@ export const AppendIconOutlined = {
 
 export const AppendIconText = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
     variant: "text",
   },
@@ -178,7 +179,7 @@ export const AppendIconText = {
 
 export const AppendIconElevated = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
     variant: "elevated",
   },
@@ -186,7 +187,7 @@ export const AppendIconElevated = {
 
 export const AppendIconPill = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
     rounded: "pill",
   },
@@ -194,7 +195,7 @@ export const AppendIconPill = {
 
 export const AppendIconCircle = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
     rounded: "circle",
   },
@@ -202,7 +203,7 @@ export const AppendIconCircle = {
 
 export const AppendIconShaped = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
     rounded: "shaped",
   },
@@ -210,7 +211,7 @@ export const AppendIconShaped = {
 
 export const AppendIconXs = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
     border: "xs",
   },
@@ -218,7 +219,7 @@ export const AppendIconXs = {
 
 export const AppendIconSm = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
     border: "sm",
   },
@@ -226,7 +227,7 @@ export const AppendIconSm = {
 
 export const AppendIconMd = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
     border: "md",
   },
@@ -234,7 +235,7 @@ export const AppendIconMd = {
 
 export const AppendIconLg = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
     border: "lg",
   },
@@ -242,7 +243,7 @@ export const AppendIconLg = {
 
 export const AppendIconXl = {
   args: {
-    label: "Chip",
+    text: "Chip",
     'append-icon': "mdi-close",
     border: "xl",
   },
